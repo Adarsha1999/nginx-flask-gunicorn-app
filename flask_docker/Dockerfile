@@ -1,19 +1,11 @@
 #Linux Version
-FROM centos:latest
+FROMadarshadinda/nginx-flask:v1
 
 
 
-RUN yum install epel-release  -y
-RUN yum update -y
-
-# Install Python
-
-RUN yum install python3 -y
 
 
 
-# Install Nginx
-RUN yum install nginx1 -y
 
 
 # set working diretory
