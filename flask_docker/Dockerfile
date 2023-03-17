@@ -1,6 +1,7 @@
 #Linux Version
 FROM amazonlinux:latest
 RUN yum -y install which unzip aws-cli
+RUN yum update -y
 
 
 
