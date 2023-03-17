@@ -1,5 +1,5 @@
 #Linux Version
-FROMadarshadinda/nginx-flask:v1
+FROM adarshadinda/nginx-flask:v1
 
 
 
