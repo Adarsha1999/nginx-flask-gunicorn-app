@@ -1,18 +1,19 @@
 #Linux Version
-FROM amazonlinux:latest
-RUN yum -y install which unzip aws-cli
+FROM centos:latest
+
+
+
+RUN yum install epel-release  -y
 RUN yum update -y
 
-
-
 # Install Python
-RUN yum install -y amazon-linux-extras
-RUN amazon-linux-extras install python3
+
+RUN yum install python3 -y
 
 
 
 # Install Nginx
-RUN amazon-linux-extras install nginx1
+RUN yum install nginx1 -y
 
 
 # set working diretory
